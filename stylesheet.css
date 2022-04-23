@@ -1,0 +1,17 @@
+table,
+th,
+td {
+    border: 1px solid;
+    border-collapse: collapse;
+    border-color: red;
+    text-align: center;
+    border-style: dashed;
+}
+
+tr:hover {
+    background-color: antiquewhite;
+}
+
+tr:nth-child(odd) {
+    background-color: bisque;
+}
